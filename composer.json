@@ -1,0 +1,33 @@
+{
+  "name"        : "uwmadison-umark/wordpress-theme",
+  "description" : "Official Wordpress theme for the University of Wisconsin-Madison",
+  "authors"     : [
+    {
+      "name"    : "Nick Weaver",
+      "email"   : "jnweaver@wisc.edu",
+      "homepage": "http://umark.wisc.edu"
+    },
+    {
+      "name"    : "Vidal Quevedo",
+      "email"   : "quevedo@wisc.edu",
+      "homepage": "http://umark.wisc.edu"
+    },
+    {
+      "name"    : "Peter Weil",
+      "email"   : "plweil@wisc.edu",
+      "homepage": "http://umark.wisc.edu"
+    },
+    {
+      "name"    : "Bryan Shelton",
+      "email"   : "bryan@sheltonplace.com",
+      "homepage": "http://sheltonplace.com"
+    }
+  ],
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "uwmadison"
+  }
+}
