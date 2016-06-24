@@ -1251,7 +1251,8 @@ article.format-status .entry-content {
 	padding: 0;
 }
 .singular .entry-title {
-	color: #000;
+	/*color: #000;*/
+	color:#b70101;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
@@ -2434,6 +2435,19 @@ p.comment-form-comment {
 	text-align: center;
 }
 
+/* page-template-nosidebar-page
+----------------------------------------------- */
+body.page-template-nosidebar-page #page #main{
+	background:none;
+}
+
+body.page-template-nosidebar-page #page #main #primary{
+	/*background-color: LightSalmon;*/
+}
+
+body.page-template-nosidebar-page #page #main #primary #content{
+	width:80%;
+}
 
 /* =Print
 ----------------------------------------------- */
